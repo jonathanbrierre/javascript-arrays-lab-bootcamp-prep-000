@@ -9,4 +9,6 @@ function destructivelyAppendKitten(name){
   
 }
 
-function 
+function destructivelyPrependKitten(name) {
+  kittens.shift(name)
+}
